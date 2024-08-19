@@ -1,0 +1,93 @@
+2024-07-29T20:19:26.880+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Starting ToDoAppApplication using Java 21.0.1 with PID 10020 (D:\4sem\microservice\ToDo-App-main\target\classes started by jagrati jain in D:\4sem\microservice\ToDo-App-main)
+2024-07-29T20:19:26.890+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T20:19:27.154+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T20:19:27.169+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2024-07-29T20:19:27.379+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2024-07-29T20:19:27.380+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T20:19:27.381+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-07-29T20:19:27.564+05:30  INFO 10020 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-29T20:19:27.568+05:30  INFO 10020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T20:19:27.569+05:30  INFO 10020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 676 ms
+2024-07-29T20:19:27.706+05:30  INFO 10020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T20:19:27.716+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-29T20:19:27.757+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f62360b
+2024-07-29T20:19:27.759+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-29T20:19:27.763+05:30  INFO 10020 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-07-29T20:19:27.902+05:30  INFO 10020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-29T20:19:27.904+05:30  INFO 10020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:19:28.079+05:30  WARN 10020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T20:19:28.172+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-29T20:19:28.186+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-07-29T20:19:28.193+05:30 DEBUG 10020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-29T20:19:28.195+05:30 DEBUG 10020 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-29T20:19:28.215+05:30  INFO 10020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T20:19:28.223+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2024-07-29T20:19:28.225+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Started ToDoAppApplication in 1.43 seconds (process running for 629.621)
+2024-07-29T20:19:28.226+05:30  INFO 10020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T20:19:34.679+05:30  INFO 10020 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2024-07-29T20:19:34.687+05:30  INFO 10020 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-29T20:19:34.695+05:30  INFO 10020 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:19:34.696+05:30  INFO 10020 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-29T20:19:34.701+05:30  INFO 10020 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-29T20:19:34.753+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Starting ToDoAppApplication using Java 21.0.1 with PID 10020 (D:\4sem\microservice\ToDo-App-main\target\classes started by jagrati jain in D:\4sem\microservice\ToDo-App-main)
+2024-07-29T20:19:34.754+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T20:19:34.823+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T20:19:34.829+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2024-07-29T20:19:34.871+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2024-07-29T20:19:34.872+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T20:19:34.873+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-07-29T20:19:34.910+05:30  INFO 10020 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-29T20:19:34.912+05:30  INFO 10020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T20:19:34.912+05:30  INFO 10020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2024-07-29T20:19:34.930+05:30  INFO 10020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T20:19:34.934+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-07-29T20:19:34.946+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13fe1c5a
+2024-07-29T20:19:34.946+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-07-29T20:19:34.948+05:30  INFO 10020 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-07-29T20:19:34.997+05:30  INFO 10020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-29T20:19:34.998+05:30  INFO 10020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:19:35.035+05:30  WARN 10020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T20:19:35.054+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-29T20:19:35.062+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-07-29T20:19:35.068+05:30 DEBUG 10020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-29T20:19:35.071+05:30 DEBUG 10020 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-29T20:19:35.081+05:30  INFO 10020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T20:19:35.088+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2024-07-29T20:19:35.090+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Started ToDoAppApplication in 0.353 seconds (process running for 636.486)
+2024-07-29T20:19:35.091+05:30  INFO 10020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T20:19:37.515+05:30  INFO 10020 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-29T20:19:37.521+05:30  INFO 10020 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-29T20:19:37.528+05:30  INFO 10020 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:19:37.529+05:30  INFO 10020 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-07-29T20:19:37.534+05:30  INFO 10020 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-07-29T20:19:37.581+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Starting ToDoAppApplication using Java 21.0.1 with PID 10020 (D:\4sem\microservice\ToDo-App-main\target\classes started by jagrati jain in D:\4sem\microservice\ToDo-App-main)
+2024-07-29T20:19:37.582+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T20:19:37.647+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T20:19:37.653+05:30  INFO 10020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2024-07-29T20:19:37.689+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2024-07-29T20:19:37.690+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T20:19:37.690+05:30  INFO 10020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-07-29T20:19:37.729+05:30  INFO 10020 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-29T20:19:37.732+05:30  INFO 10020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T20:19:37.733+05:30  INFO 10020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 150 ms
+2024-07-29T20:19:37.751+05:30  INFO 10020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T20:19:37.754+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-07-29T20:19:37.763+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e9092e6
+2024-07-29T20:19:37.764+05:30  INFO 10020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-07-29T20:19:37.765+05:30  INFO 10020 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-07-29T20:19:37.791+05:30  INFO 10020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-29T20:19:37.791+05:30  INFO 10020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:19:37.840+05:30  WARN 10020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T20:19:37.858+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-29T20:19:37.865+05:30 DEBUG 10020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-07-29T20:19:37.871+05:30 DEBUG 10020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-29T20:19:37.874+05:30 DEBUG 10020 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-29T20:19:37.887+05:30  INFO 10020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T20:19:37.895+05:30  INFO 10020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2024-07-29T20:19:37.897+05:30  INFO 10020 --- [restartedMain] com.example.ToDoApp.ToDoAppApplication   : Started ToDoAppApplication in 0.33 seconds (process running for 639.293)
+2024-07-29T20:19:37.898+05:30  INFO 10020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T20:20:09.719+05:30  INFO 10020 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-29T20:20:09.725+05:30  INFO 10020 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-29T20:20:09.729+05:30  INFO 10020 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T20:20:09.730+05:30  INFO 10020 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-07-29T20:20:09.733+05:30  INFO 10020 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
